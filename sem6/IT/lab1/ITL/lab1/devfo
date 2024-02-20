@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    
+    $('orderForm').submit(function(event){
+        event.preventDefault();
+        var formData=$(this).serializeArray();
+        var formBody=$('orderSummary tbody');
+
+        tableBody.empty();
+
+        formData.forEach(function(item))
+
+    })
+})
